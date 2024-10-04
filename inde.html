@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.state {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+    margin-top: 20px;
+    width: 100px;  /* Width of the circle */
+    height: 100px; /* Height of the circle */
+    border-radius: 50%; /* Makes it circular */
+    background-color: #007BFF; /* Fill color */
+    color: white; /* Text color */
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.circle:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Font size for text */
+}
+
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="i.js"></script>
+</body>
+</html>
